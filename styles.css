@@ -414,6 +414,7 @@ section:nth-of-type(even) {
     }
     #leave-message-section .message-box {
         max-width: 300px;
+        align-items: center;
     }
 }
 
@@ -466,13 +467,16 @@ section:nth-of-type(even) {
 
     #leave-message-section {
         padding: 3rem 1rem; /* Adjust padding for smaller screens */
+        align-items: center;
     }
     #leave-message-section .name-box {
         max-width: 250px;
+        align-items: center;
     }
 
     #leave-message-section .message-box {
         max-width: 300px;
+        align-items: center;
     }
 }
 
@@ -491,10 +495,12 @@ section:nth-of-type(even) {
     }
     #leave-message-section .name-box {
         max-width: 250px;
+        align-items: center;
     }
 
     #leave-message-section .message-box {
         max-width: 300px;
+        align-items: center;
     }
 }
 
@@ -513,8 +519,10 @@ section:nth-of-type(even) {
     }
     #leave-message-section .name-box {
         max-width: 150px;
+        align-items: center;
     }
     #leave-message-section .message-box {
         max-width: 200px;
+        align-items: center;
     }
 }
