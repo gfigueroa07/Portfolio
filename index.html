@@ -1,0 +1,131 @@
+{% load static %}
+
+<doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillermo's Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav id="info">
+            <div class="left">
+                <a href="#about-section">Guillermo Figueroa</a>
+            </div>
+            <div class="right">
+                <a href="#about-section">About</a>
+                <a href="#projects-section">Projects</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#leave-message-section">Leave a Message!</a>
+            </div>
+        </nav>
+    </header>
+    <section id="about-section">
+        <div class="about-title">
+        <h1>Hey World, I'm Guillermo!</h1>
+        </div>
+        <div class="top-line">
+        <hr class="top">
+        </div>
+        <div class="headshot">
+            <picture>
+            <source srcset="/static/css/media/headshot.png" type="image/webp">
+            <img src="/static/css/media/headshot.png" alt="headshot">
+
+            </picture>
+        </div>
+        <div class="bio">
+            <p>
+                Hey! I'm Guillermo, an aspiring self-taught programmer who's incredibly excited about software development and creating new things. I'm well equipped with a skillset of learning new things and an eagerness to experiment!
+            </p>
+            <br>
+            <p>
+                Outside of career and academics, I enjoy gaming, watching anime and spending time with my family and pets.
+            </p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://github.com/gfigueroa07" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="projects-section">
+        <div class="projects-title">
+        <h1>Projects</h1>
+        </div>
+        <hr class="projects-line">
+        <div class="project-subsection">
+            <div class="software-title">
+            <h3>Software</h3>
+            </div>
+            <p>coming soon...</p>
+        </div>
+        <div class="project-subsection">
+            <div class="software-title">
+            <h3>Design</h3>
+            </div>
+            <p>coming soon...</p>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="skills-section">
+        <div class="skills-title">
+            <h1>Skills</h1>
+            <hr class="skills-line">
+        </div>
+        <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-database"></i>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="leave-message-section">
+        <div class="leave-message-title">
+            <h1>Leave a message!</h1>
+            <hr class="line-bottom">
+        </div>
+        <div class="message-form">
+            <form action="send_message.php" method="post">
+                <label for="name">Name:</label><br>
+                <input class="name-box" type="text" id="name" name="name" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea class="message-box" id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button class="sub-button" type="submit">Leave a Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <span id="year"></span> Guillermo Figueroa. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Automatically update the copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Initialize Swiper
+            const swiper = new Swiper(".card-swiper", {
+                centeredSlides: false,
+                spaceBetween: 0,
+                slidesPerView: 'auto'
+            });
+        });
+    </script>
+  </body>
+</html>
+</html>
+       
