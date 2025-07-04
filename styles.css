@@ -280,7 +280,7 @@ section:nth-of-type(even) {
     text-align: center;
     align-items: center;
     padding: 10px;
-    margin: 3px;
+    margin: 10px;
     field-sizing: content; 
 }
 
@@ -303,7 +303,6 @@ section:nth-of-type(even) {
     text-align: left;
     field-sizing: content; 
     align-items: center;
-    margin: 10px;
 }
 
 #leave-message-section .box:hover {
