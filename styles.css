@@ -322,7 +322,7 @@ section:nth-of-type(even) {
     transform: scale(1.2);
 }
 
-footer {
+.footer {
     background-color: #909090;
     color: #fff;
     text-align: center;
@@ -501,11 +501,11 @@ footer {
     }
 
     nav .left a {
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     nav .right a {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         margin: 0.10rem;
     }
     #leave-message-section .name-box {
