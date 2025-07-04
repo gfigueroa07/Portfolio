@@ -280,7 +280,7 @@ section:nth-of-type(even) {
     text-align: center;
     align-items: center;
     padding: 10px;
-    margin: auto;
+    margin: 3px;
     field-sizing: content; 
 }
 
@@ -303,7 +303,7 @@ section:nth-of-type(even) {
     text-align: left;
     field-sizing: content; 
     align-items: center;
-    margin: 100px;
+    margin: 10px;
 }
 
 #leave-message-section .box:hover {
@@ -328,7 +328,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 10;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
 }
 
 
@@ -513,6 +513,6 @@ footer {
         max-width: 150px;
     }
     #leave-message-section .message-box {
-        max-width: 250px;
+        max-width: 200px;
     }
 }
