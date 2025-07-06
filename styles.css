@@ -24,7 +24,7 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 3.125rem;
+    padding: 0 0.125rem;
     height: 5rem;
     align-items: center;
     position: fixed;
@@ -35,12 +35,22 @@ nav {
     backdrop-filter: blur(5px);
 }
 
-nav ul {
+ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+nav .sidebar {
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(184, 210, 190, 0.9);
 }
 
 nav li {
@@ -56,9 +66,10 @@ nav .left a {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 nav a {
     height: 100%;
-    padding: 0 30px;
+    padding: 0 10px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -95,6 +106,7 @@ nav .sidebar li {
 
 .menuButton {
     display: none;
+    margin-right: 1px;
     }
 
 /* General Section Styles */
@@ -125,7 +137,6 @@ section:nth-of-type(even) {
     
 }
 
-
 #about-section {
     min-height: 50vh;
     flex-direction: column;
@@ -136,11 +147,6 @@ section:nth-of-type(even) {
     text-align: center;
     gap: 0.5rem;
 }
-/* #about-section h1 {
-    margin-bottom: 1rem;
-    font-size: 2.75rem;
-    font-weight: 700;
-} */
 
 #about-section .top {
     height: 5px;
@@ -155,10 +161,6 @@ section:nth-of-type(even) {
     margin-right: auto;
     
 }
-
-/* #about-section .top-line {
-    margin: auto;
-} */
 
 #about-section .headshot {
     width: 300px;
