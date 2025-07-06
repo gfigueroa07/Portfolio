@@ -249,7 +249,7 @@ section:nth-of-type(even) {
     min-height: 50vh;
     flex-direction: column;
     justify-content: center;
-    padding: 8rem 2rem;
+    padding-bottom: 15rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -333,7 +333,6 @@ section:nth-of-type(even) {
     font-size: 0.8rem;
 }
 
-
 /* Media Queries for Responsiveness */
 @media (min-width: 1690px) {
     .swiper-wrapper {
@@ -363,21 +362,15 @@ section:nth-of-type(even) {
     #skills-section i {
         font-size: 2.5rem;
     }
-    #leave-message-section .message-box {
-        max-width: 300px;
-    }
-    #leave-message-section .name-box {
-        max-width: 250px;
-    }
 }
 
 @media (max-width: 768px) {
     nav .left a {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     nav .right a {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin: 0 0.375rem;
     }
 
@@ -399,32 +392,13 @@ section:nth-of-type(even) {
      }
 }
 
-@media (max-width: 648px) {
-    nav {
-        padding: 1.2rem;
-    }
-
-    nav .left a {
-        font-size: .8rem;
-    }
-
-    nav .right a {
-        font-size: 1rem;
-        margin: 0.10rem;
-    }
-    #leave-message-section .message-box {
-        max-width: 300px;
-        align-items: center;
-    }
-}
-
 @media (max-width: 576px) {
     nav {
-        padding: 0 1.2rem;
+        padding: 0 1rem;
     }
 
     nav .left a {
-        font-size: .7rem;
+        font-size: 1.1rem;
     }
 
     nav .right a {
@@ -467,62 +441,5 @@ section:nth-of-type(even) {
 
     #leave-message-section {
         padding: 3rem 1rem; /* Adjust padding for smaller screens */
-        align-items: center;
-    }
-    #leave-message-section .name-box {
-        max-width: 250px;
-        align-items: center;
-    }
-
-    #leave-message-section .message-box {
-        max-width: 300px;
-        align-items: center;
-    }
-}
-
-@media (max-width: 480px) {
-    nav {
-        padding: 1.3rem;
-    }
-
-    nav .left a {
-        font-size: .7rem;
-    }
-
-    nav .right a {
-        font-size: 0.6rem;
-        margin: 0.10rem;
-    }
-    #leave-message-section .name-box {
-        max-width: 250px;
-        align-items: center;
-    }
-
-    #leave-message-section .message-box {
-        max-width: 300px;
-        align-items: center;
-    }
-}
-
-@media (max-width: 390px) {
-    nav {
-        padding: .8rem;
-    }
-
-    nav .left a {
-        font-size: .7rem;
-    }
-
-    nav .right a {
-        font-size: 0.6rem;
-        margin: 0.10rem;
-    }
-    #leave-message-section .name-box {
-        max-width: 150px;
-        align-items: center;
-    }
-    #leave-message-section .message-box {
-        max-width: 200px;
-        align-items: center;
     }
 }
