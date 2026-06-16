@@ -34,6 +34,7 @@
             </div>
         </nav>
     </header>
+
     <section id="about-section">
         <div class="about-title">
         <h1>Hey World, I'm Guillermo!</h1>
@@ -69,23 +70,66 @@
             </a>
         </div>
     </section>
+
     <div class="divider"></div>
+
     <section id="projects-section">
         <div class="projects-title">
-        <h1>Projects</h1>
+            <h1>Projects</h1>
         </div>
         <hr class="projects-line">
-        <div class="project-subsection">
-            <div class="software-title">
-            <h3>Software</h3>
+
+        <!-- FINISHED PROJECTS -->
+        <div class="'projects-grid">
+            <div class="project-card">
+                <img src="media/hustlr_jobs.png" alt="Hustlr Jobs">
+                <div class="'project-content">
+                    <h3>Hustlr Jobs</h3>
+                    <p>
+                        A job board platform that connects people who need
+                        services with local providers. Users can post jobs,
+                        browse opportunities, and apply directly through
+                        the platform.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>SQLite</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://hustlrjobs.onrender.com/">Live Demo</a>
+                        <a href="https://github.com/gfigueroa07/job_board.git">Github</a>
+                    </div>
+                </div>
             </div>
-            <p>coming soon...</p>
-        </div>
-        <div class="project-subsection">
-            <div class="software-title">
-            <h3>Design</h3>
-            </div>
-            <p>coming soon...</p>
+            
+            <!-- CURRENT PROJECTS -->
+             <div class="project-card">
+                <img src="media/ipg_church_site.PNG" alt="IPG Church">
+                <div class="project-content">
+                    <h3>IPG Church Website</h3>
+                    <p>Currently developing a website for a church and
+                        expanding my full-stack development skills.
+                    </p>
+
+                    <div class="status-badge">
+                        In Progress 🚧
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/gfigueroa07/ipg_church.git">Github</a>
+                    </div>
+                </div>
+             </div>
+
+
+
+
+
+
+
         </div>
     </section>
     <div class="divider"></div>
@@ -101,7 +145,9 @@
             <i class="fa-solid fa-database"></i>
         </div>
     </section>
+
     <div class="divider"></div>
+
     <section id="leave-message-section">
         <div class="leave-message-title">
             <h1>Leave a message!</h1>
@@ -118,6 +164,7 @@
             </form>
         </div>
     </section>
+
     <footer class="footer">
         <p>&copy; <span id="year"></span> Guillermo Figueroa. All Rights Reserved.</p>
     </footer>
